@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button1" parent="@style/Animation.Design.BottomSheetDialog" >
+         <item name ="android:layout_width">match_parent</item>
+         <item name="android:layout_height">0dp</item>
+         <item name="android:layout_marginHorizontal">139dp</item>
+         <item name="android:textSize">20sp</item>
+         <item name="android:layout_weight">30</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="background">@color/purple</item>
+    </style>
+    <style name="Button2" parent="@style/TextAppearance.AppCompat">
+        <item name ="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginHorizontal">6sp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:textColor">#303237</item>
+        <item name="background">@color/teal</item>
+    </style>
+    <string name="register"><u>my_text</u></string>
+    <style name="EditTextLast" parent= "@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="TextViewLast" parent= "@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:paddingHorizontal">30dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="TextViewRate" parent= "@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginHorizontal">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

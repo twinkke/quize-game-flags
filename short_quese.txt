@@ -1,0 +1,123 @@
+
+public class Answer {
+    int question;
+    int button;
+
+    Answer(int question, int numRight) {
+        this.question = question;
+        this.button = numRight;
+    }
+
+}
+
+class Question{
+    int Quest;// как с массивом хз int Question[]
+    int true_answer;
+
+    Question(int image,int answer){
+        this.Quest = image;
+        this.true_answer = answer;
+    }
+
+    int getQuest(){return this.Quest;} // с массивом поменяется
+
+}
+
+class questionGenerator(int Question[], int trueAnswer){
+static public List<Question> getQuestions(){
+
+	//  newQuestion масив какойто из строк его передаешь в обьеме 4 разных названий 
+	// trueAnswer передаешь правильный правильный ответ
+
+	Question question1 = new Question(R.drawble.rrr//Question[0] , "Бангладеш");
+        Question question2 = new Question(R.drawble.krr//Question[1] , "Япония");
+	....
+	Question question10 = new Question(R.drawble.rdr//Question[9] , "Бельгия");
+
+        List <Question> questions = new ArrayList<Question>();
+        questions.add(question1);
+        questions.add(question2);
+	....
+	questions.add(question10);
+
+int[] Question = {
+
+	R.drawble.rrr,                     
+	R.drawble.krr,	                   
+	R.drawble.rrr,
+	R.drawble.rfr,
+	R.drawble.rrr,
+	R.drawble.rr,
+	R.drawble.err,
+	R.drawble.rdr,
+};
+
+
+ 
+boolean first = false;
+boolean second= false;
+boolean third= false;
+boolean fourth= false;
+
+
+
+switch(trueAnswer){
+case 0:
+        first = true;
+        break;
+case 1:
+        second = true;
+        break;
+case 2:
+        third = true;
+        break;
+case 3:
+        fourth = true;
+        break;
+case 4:
+        second = true;
+        break;
+case 5:
+        first = true;
+        break;
+case 6:
+        third = true;
+        break;
+case 7:
+        fourth = true;
+        break;
+case 8:
+        fourth = true;
+        break;
+case 9:
+        third = true;
+        break;
+case 10:
+        first = true;
+        break;
+}
+Answer answer1 = new Answer(question1,first);
+Answer answer2 = new Answer(question2,second);
+Answer answer3 = new Answer(question3,third);
+Answer answer4 = new Answer(question4,fourth);
+Answer answer5 = new Answer(question5,second);
+Answer answer6 = new Answer(question6,first);
+Answer answer7 = new Answer(question7,fourth);
+Answer answer8 = new Answer(question8,fourth);
+Answer answer9 = new Answer(question9,third);
+Answer answer10 = new Answer(question10,first);
+
+   
+    List<Answer> answers = new ArrayList<>();
+	answers.add(answer1);
+        answers.add(answer2);
+        answers.add(answer3);
+        answers.add(answer4);
+	answers.add(answer5);
+        answers.add(answer6);
+        answers.add(answer7);
+        answers.add(answer8);
+	answers.add(answer9);
+        answers.add(answer10);
+    
+}

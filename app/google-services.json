@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "768983401247",
+    "firebase_url": "https://dataquese-default-rtdb.firebaseio.com",
+    "project_id": "dataquese",
+    "storage_bucket": "dataquese.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768983401247:android:fd0a9dfc7bd8dd5457662a",
+        "android_client_info": {
+          "package_name": "com.example.quese"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768983401247-53m64dfubbg0s8ucf8bpek5bcrso0qgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzOtm79GmLLCASBX2rcoK_d_GsS9Eu_Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768983401247-53m64dfubbg0s8ucf8bpek5bcrso0qgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
